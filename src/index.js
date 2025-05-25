@@ -23,6 +23,7 @@ async function getWeather(location) {
     } catch (error) {
         console.error('Ошибка:', error);
         alert('Не удалось получить данные о погоде.');
+        
     }
 }
 
